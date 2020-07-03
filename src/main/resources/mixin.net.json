@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "de.nwex.autoeat.mixin.net",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "MixinHealthUpdatePacketS2CPacket"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
