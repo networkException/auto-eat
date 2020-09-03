@@ -78,7 +78,7 @@ public class ChatBuilder {
     }
 
     public static MutableText hover(MutableText text, MutableText hover) {
-        return chain(text, () -> text.styled((style) -> style.setHoverEvent(new HoverEvent(Action.SHOW_TEXT, hover))));
+        return chain(text, () -> text.styled(style -> style.withHoverEvent(new HoverEvent(Action.SHOW_TEXT, hover))));
     }
 
     public static MutableText copy(MutableText text, String copy) {
